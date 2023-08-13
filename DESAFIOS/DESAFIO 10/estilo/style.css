@@ -147,7 +147,7 @@ main img {
 main img.pequena {
     max-width: 350px;
     display: block;
-    margin: auto;
+    margin: auto;   
 }
 
 footer {
@@ -200,7 +200,6 @@ div.video{
     padding: 20px;
     position: relative;
     padding-bottom: 59%;
-    
 }
 
 div.video > iframe{

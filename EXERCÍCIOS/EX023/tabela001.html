@@ -10,32 +10,27 @@
         }
 
         table{
-            width: 300px;
+            width: 400px;
+            height: 400px;
             border-collapse: collapse;
-            height: 100px;
         }
 
         tr{
-            background-color: gray;
-        }
-
-        tr.linha{
-            background-color: darkgray;
+        
         }
 
         td{
             border: 2px solid black;
             padding: 8px;
+            text-align: center; /* ALINHAMENTO HORIZONTAL */
+            vertical-align: middle; /* ALINHAMENTO VERTICAL */
         }
 
-        td.dado{
-            background-color: green;
+        .numero{
+            text-align: right;
+
         }
 
-        td.dado:hover{
-            background-color: red;
-            color: black;
-        }
 
     </style>
 </head>
@@ -52,22 +47,22 @@
         <tr> <!--PRIMEIRA LINHA-->
             <td>a1</td>
             <td>b1</td>
-            <td>c1</td>
+            <td class="numero">c1</td>
         </tr>
-        <tr class="linha"> <!--PRIMEIRA LINHA-->
+        <tr> <!--SEGUNDA LINHA-->
             <td>a2</td>
             <td>b2</td>
             <td>c2</td>
         </tr>
-        <tr> <!--PRIMEIRA LINHA-->
+        <tr> <!--TERCEIRA LINHA-->
             <td>a3</td>
-            <td class="dado">b3</td>
-            <td>c3</td>
+            <td>b3</td>
+            <td class="numero">c3</td>
         </tr>
-        <tr> <!--PRIMEIRA LINHA-->
+        <tr> <!--QUARTA LINHA-->
             <td>a4</td>
             <td>b4</td>
-            <td>c4</td>
+            <td class="numero">c4</td>
         </tr>
     </table>
 </body>
